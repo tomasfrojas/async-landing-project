@@ -1,5 +1,5 @@
 const API =
-  "https://youtube-v31.p.rapidapi.com/search?channelId=UCw05fUBPwmpu-ehXFMqfdMw&part=snippet%2Cid&order=date&maxResults=9";
+  "https://youtube-v31.p.rapidapi.com/search?channelId=UCcclZ7Nbh0U383eP0N-nV0g&part=snippet%2Cid&order=date&maxResults=9";
 const content = null || document.getElementById("content");
 const options = {
   method: "GET",
@@ -37,7 +37,7 @@ async function fetchData(urlApi) {
         </div>
     `
       )
-      .slice(0, 4)
+      .slice(0, 8)
       .join("")}  
     `;
     content.innerHTML = view;
